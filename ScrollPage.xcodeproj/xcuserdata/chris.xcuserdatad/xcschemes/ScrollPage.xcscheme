@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "834120CE1F0FE2B3006C38C2"
+               BuildableName = "ScrollPage.app"
+               BlueprintName = "ScrollPage"
+               ReferencedContainer = "container:ScrollPage.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "834120E21F0FE2B3006C38C2"
+               BuildableName = "ScrollPageTests.xctest"
+               BlueprintName = "ScrollPageTests"
+               ReferencedContainer = "container:ScrollPage.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "834120ED1F0FE2B4006C38C2"
+               BuildableName = "ScrollPageUITests.xctest"
+               BlueprintName = "ScrollPageUITests"
+               ReferencedContainer = "container:ScrollPage.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "834120CE1F0FE2B3006C38C2"
+            BuildableName = "ScrollPage.app"
+            BlueprintName = "ScrollPage"
+            ReferencedContainer = "container:ScrollPage.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "834120CE1F0FE2B3006C38C2"
+            BuildableName = "ScrollPage.app"
+            BlueprintName = "ScrollPage"
+            ReferencedContainer = "container:ScrollPage.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "834120CE1F0FE2B3006C38C2"
+            BuildableName = "ScrollPage.app"
+            BlueprintName = "ScrollPage"
+            ReferencedContainer = "container:ScrollPage.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
